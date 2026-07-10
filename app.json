@@ -1,0 +1,34 @@
+{
+  "name": "AI-Powered-Interview-Preparation-Coach",
+  "display_name": "AI-Powered Interview Preparation Coach",
+  "description": "An AI-powered interview preparation platform using IBM watsonx.ai that generates personalized interview questions, analyzes candidate answers, and provides a skill-gap roadmap based on the uploaded resume and job description.",
+  "version": "1.0.0",
+  "author": "Akshaya",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MSaiAkshaya/AI-Powered-Interview-Preparation-coach-1"
+  },
+  "technologies": [
+    "Python",
+    "Streamlit",
+    "IBM watsonx.ai",
+    "IBM Granite",
+    "PDFPlumber",
+    "Python-dotenv"
+  ],
+  "services": [
+    "IBM watsonx.ai"
+  ],
+  "foundation_model": "meta-llama/llama-3-3-70b-instruct",
+  "features": [
+    "Resume Parser",
+    "Tailored Interview Question Generation",
+    "Answer Analysis",
+    "Skill Gap Analysis",
+    "Roadmap Generation",
+    "Mock Interview"
+  ],
+  "entry_point": "app.py",
+  "python_version": "3.13"
+}
